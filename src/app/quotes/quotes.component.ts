@@ -9,12 +9,12 @@ import { Quote } from '../quote';
 export class QuotesComponent implements OnInit {
   title = 'welcome to tech quotes';
   quotes:Quote[] = [
-    new Quote (1,'mullen','technology','Technology is best when it brings people together.','matt mullenweg',new Date(2022,6,3),0,0), 
-    new Quote (2,'albert','technology…','technology…it has become appallingly obvious that our technology has exceeded our humanity.','Max Frisch',new Date(2022,7,14),0,0),
-    new Quote (3,'clive','technology','its is only when they go wrong that machines remind you how powerful they are .','clive james',new Date(2022,6,3),0,0),
-    new Quote (4,'lloyd','technology','if it keeps up,man will atrophy all his limbs but the push-button finger .','frank lloyd',new Date(2022,7,7),0,0),
-    new Quote (5,'steve','technology','its not a faith in technology its faith in people.','steve jobs',new Date(2022,7,17),0,0),
-    new Quote (6,'lee','technology','the web as i envisage it,we have not seen it yet the future is still so much bigger than the past.','Alice Kahn',new Date(2022,7,15),0,0)
+    new Quote (1,'mullen','technology','Technology is best when it brings people together.','matt mullenweg',new Date(2021,6,3),0,0), 
+    new Quote (2,'albert','technology…','technology…it has become appallingly obvious that our technology has exceeded our humanity.','Max Frisch',new Date(2021,7,10),0,0),
+    new Quote (3,'clive','technology','its is only when they go wrong that machines remind you how powerful they are .','clive james',new Date(2021,6,3),0,0),
+    new Quote (4,'lloyd','technology','if it keeps up,man will atrophy all his limbs but the push-button finger .','frank lloyd',new Date(2021,7,7),0,0),
+    new Quote (5,'steve','technology','its not a faith in technology its faith in people.','steve jobs',new Date(2021,7,11),0,0),
+    new Quote (6,'lee','technology','the web as i envisage it,we have not seen it yet the future is still so much bigger than the past.','Alice Kahn',new Date(2021,7,9),0,0)
   ]
   get sortQuotes() {
     return this.quotes.sort((a, b) => {
